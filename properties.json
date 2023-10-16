@@ -1,0 +1,28 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+{
+    "token": "00wyPT8meQjsiqkzhDuHAPcDcbm9rlSLKsVJI1ux7s", /* API token */
+    "org": "oktademo.okta.com", /* the org this will be used to build the URL */
+    "syslog": "fmvdclsrcl100.cps.intel.com", /* Syslog listener */
+    "host_name": "vmsoktap01.acint.intel.com", /* Local Hostname running this connector */
+    "syslog_port": "514",
+    "syslog_instance": "udp",
+    "proxy": "",/* Proxy host */
+    "proxy_port": "912",
+    "cef_header": "OKTA:",
+    "state_file_1": "log_state.json", /* Start and End of last run */
+    "state_file_2": "log_state-secondary.json",
+    "debug": "true", /* if true Spits out all the logs sent to syslog */
+    "flush_interval": "1", /* in milliseconds */
+    "filter1": "on", /* auth, SSO filters */
+    "filter2": "off", /* user provisioning, deprovisionig filters */
+    "filter3": "off", /* others - MFA, inbound */
+    "number_pagination": "1", /* all will continuous till it finishes the logs, number will get upto that #pages */
+    "limit_logs": "20", /* Limit the # of logs sent to syslog */
+    "filter_str": "action.objectType+eq+%22app.generic.config.app_activated%22+or+action.objectType+eq+%22app.generic.config.app_deactivated%22+or+action.objectType+eq+%22app.generic.import.provisioning_data%22+or+action.objectType+eq+%22app.generic.import.import_user%22+or+action.objectType+eq+%22app.generic.config.app_updated%22+or+action.objectType+eq+%22app.generic.import.new_user%22+or+action.objectType+eq+%22app.generic.import.user_update%22+or+action.objectType+eq+%22app.generic.config.app_username_update%22+or+action.objectType+eq+%22app.generic.config.app_password_update%22+or+action.objectType+eq+%22app.generic.import.user_delete%22+or+action.objectType+eq+%22app.generic.import.started%22+or+action.objectType+eq+%22app.generic.import.complete%22+or+action.objectType+eq+%22app.generic.import.user_match.complete%22+or+action.objectType+eq+%22app.generic.import.details.add_custom_object%22+or+action.objectType+eq+%22app.generic.import.details.update_custom_object%22+or+action.objectType+eq+%22app.generic.import.details.delete_custom_object%22+or+action.objectType+eq+%22app.generic.import.details.add_user%22+or+action.objectType+eq+%22app.generic.import.details.update_user%22+or+action.objectType+eq+%22app.generic.import.details.delete_user%22+or+action.objectType+eq+%22app.generic.import.details.add_group%22+or+action.objectType+eq+%22app.generic.import.details.update_group%22+or+action.objectType+eq+%22app.generic.import.details.delete_group%22+or+action.objectType+eq+%22app.generic.import.summary.custom_object%22+or+action.objectType+eq+%22app.generic.import.summary.user%22+or+action.objectType+eq+%22app.generic.import.summary.group%22+or+action.objectType+eq+%22app.generic.import.summary.group_membership%22+or+action.objectType+eq+%22app.auth.sso%22+or+action.objectType+eq+%22app.auth.delegated.outbound%22+or+action.objectType+eq+%22app.user_management.push_password_update%22+or+action.objectType+eq+%22app.user_management.push_profile_success%22+or+action.objectType+eq+%22app.user_management.push_profile_failure%22+or+action.objectType+eq+%22app.user_management.push_new_user%22+or+action.objectType+eq+%22app.user_management.push_pending_user%22+or+action.objectType+eq+%22app.user_management.provision_user%22+or+action.objectType+eq+%22app.user_management.provision_user_failed%22+or+action.objectType+eq+%22app.user_management.importing_profile%22+or+action.objectType+eq+%22app.user_management.update_from_master_failed%22+or+action.objectType+eq+%22app.user_management.verified_user_with_thirdparty%22+or+action.objectType+eq+%22app.user_management.updating_api_credentials_for_password_change%22+or+action.objectType+eq+%22app.user_management.activate_user%22+or+action.objectType+eq+%22app.user_management.deactivate_user%22+or+action.objectType+eq+%22app.user_management.reactivate_user%22+or+action.objectType+eq+%22app.user_management.provision_user.user_inactive%22+or+action.objectType+eq+%22app.user_management.deprovision_task_compssslete%22"
+
+}
+
