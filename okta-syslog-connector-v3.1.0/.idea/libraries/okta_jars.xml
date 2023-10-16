@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="okta-jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/okta-jars/json-20070829.jar!/" />
+      <root url="jar://$PROJECT_DIR$/okta-jars/httpclient-4.2.2 2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/okta-jars/httpcore-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/okta-jars/syslog4j-0.9.46-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/okta-jars/httpclient-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/okta-jars/commons-logging-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
