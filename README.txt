@@ -25,12 +25,12 @@ Comments:	The oktaAPI.java file contains the main class and has several method c
 
   	"token": "00imHMYbobR_TAj4y5G2zr_5GSdQANwC0v6-Ch2SJU", /* API token */
     	"org": "oktademo.okta.com", /* the org this will be used to build the URL */
-    	"syslog": "fmvdclsrcl100.cps.intel.com", /* Syslog listener */
+    	"syslog": "fmvdclsrcl100.example.com", /* Syslog listener */
    	"start_time": "2013-11-22", /* Start time of Okta events  */
    	"proxy": "",/* Proxy host */
    	"proxy_port": "912",
     	"min_from_current_to_log": "10", /* Number of minutes from current to log */
-    	"cef_header": "local0.info vmsokta01.intel.com OKTA:"
+    	"cef_header": "local0.info vmsokta01.example.com OKTA:"
 
 
 	Also you will need to find an ID for one of your users to see the components work.
