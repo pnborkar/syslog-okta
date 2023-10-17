@@ -6,8 +6,8 @@
 {
     "token": "00wyPT8meQjsiqkzhDuHAPcDcbm9rlSLKsVJI1ux7s", /* API token */
     "org": "oktademo.okta.com", /* the org this will be used to build the URL */
-    "syslog": "fmvdclsrcl100.cps.intel.com", /* Syslog listener */
-    "host_name": "vmsoktap01.acint.intel.com", /* Local Hostname running this connector */
+    "syslog": "fmvdclsrcl100.example.com", /* Syslog listener */
+    "host_name": "vmsoktap01.example.com", /* Local Hostname running this connector */
     "syslog_port": "514",
     "syslog_instance": "udp",
     "proxy": "",/* Proxy host */
