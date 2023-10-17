@@ -1,6 +1,6 @@
 /*
  * Author:  Adam Lesperance
- *          Updated : pborkar@okta
+ *          Updated : Pramod Borkar (pborkar@okta)
  *
  * Date:    19-May-2014
  *
