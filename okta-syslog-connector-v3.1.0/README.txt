@@ -23,9 +23,9 @@ Comments:	The oktaAPI.java file contains the main class and has several method c
 
 	Example would be : 
 
-  	"token": "00imHMYbobR_TAj4y5G2zr_5GSdQANwC0v6-Ch2SJU", /* API token */
-    	"org": "oktademo.okta.com", /* the org this will be used to build the URL */
-    	"syslog": "fmvdclsrcl100.cps.intel.com", /* Syslog listener */
+  	"token": "00imsdsdsdssdss2zr_<token>NwC0v6-Ch2SJU", /* API token */
+    	"org": "demoinstance.okta.com", /* the org this will be used to build the URL */
+    	"syslog": "fmvdclsrcl100.example.com", /* Syslog listener */
    	"start_time": "2013-11-22", /* Start time of Okta events  */
    	"proxy": "",/* Proxy host */
    	"proxy_port": "912",
